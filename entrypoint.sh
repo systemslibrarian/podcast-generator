@@ -2,8 +2,8 @@
 
 echo "==========================="
 
-#git config --global user.name "${GITHUB_AUTHOR}"
-#git config --global user.email "${INPUT_EMAIL}"
+git config --global user.name "systemslibrarian}"
+git config --global user.email "systemslibrarian@gmail.com"
 git config --global --add safe.directory /github/workspace
 
 python /usr/bin/feed.py
